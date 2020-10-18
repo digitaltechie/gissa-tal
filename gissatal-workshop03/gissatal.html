@@ -12,28 +12,55 @@
     <header>
         <nav>
             <ul>
-                <li>| <a href="https://github.com/drblue/fed20-javascript-1/blob/lesson-3/14-guess-the-number/script.js">Github Instructions</a> | </li>
+                <li><a href="#the-guessing-game"><strong>THE GAME</strong></a> |</li>
+                <li>| <a href="https://github.com/drblue/fed20-javascript-1/blob/lesson-3/14-guess-the-number/script.js">Github Instructions</a> |</li>
                 <li>Resources: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">Math</a> | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt">prompt</a> |</li>
                 <li><a href="#workshop-intro-instructions">Instructions </a> |</li>
                 <li><a href="#my-solution">Notes </a> |</li>
+                <li><a href="#my-codepen">Codepen</a> |</li>
+                <li><a href="#my-github-repo">Github</a> |</li>
+                <li><a href="#github-waterfall">Github waterfall</a> |</li>
+                <li><a href="#github-csharp-lottobollar">C-sharp version</a> |</li>
             </ul>
             <a href="#top"><img id="to-top-button" src="to-top.png" alt=""></a>
         </nav>
     </header>
     <main>
-        <section class="workshop-intro" id="workshop-intro-instructions">
-            <h1>Gissa talet</h1>
+        <h1>Gissa talet</h1>
+
+        <section class="guessing-game click-me-button">
+            <!-- <h2 id="the-guessing-game">The Game</h2> -->
+            <figure class="click-button-container click-me-button" id="the-guessing-game">
+                <img class="game-click-button click-me-button" id="game-click-button" src="click.png" alt="click-me">
+                <div class="centered-click-me click-me-button" id="game-click-text">click me</div>
+            </figure>
+        </section>
+
+        <h2 id="workshop-intro-instructions">Instructions</h2>
+        <section class="workshop-intro">
             <figure class="thumbnail">
-               <a target="_blank" href="workshop-white.png"><img class="thumbnail-image instructions" src="workshop-white.png" alt="instructions "></a>
+               <a target="_blank" href="workshop-white.png"><img class="thumbnail-image instructions" src="instructions.png" alt="instructions "></a>
                <caption class="thumbnail-caption"><a href="https://github.com/drblue/fed20-javascript-1/blob/lesson-3/14-guess-the-number/script.js"> <em>(Click image to enlarge)  </em>| Click here for instructions on Github</a></caption>
+            </figure>
+            <figure class="thumbnail">
+                <a target="_blank" href="https://medieinstitutet-my.sharepoint.com/:f:/g/personal/zainab_ahmad_medieinstitutet_se/ElmYPwDCm3xNjRMR_ycy8hUBsqvIjIlEz8uHdGTceuI0Kw?e=7meAIt"><img class="thumbnail-image solution-zip" src="zip.png" alt="zip-file"></a>
+                <caption class="thumbnail-caption"><a href="https://medieinstitutet-my.sharepoint.com/:f:/g/personal/zainab_ahmad_medieinstitutet_se/ElmYPwDCm3xNjRMR_ycy8hUBsqvIjIlEz8uHdGTceuI0Kw?e=7meAIt">Zip file on One Drive</a></caption>
             </figure>
         </section>    
     <hr>
-    <section class="my-solution" id="my-solution">
-        <h2>Notes</h2>
-        <p>Working on it now</p>
+
+    <section class="my-solution">
+        <h2 id="my-solution">Notes</h2>
+        <ul>
+            <li>Using <em>function expressions</em>, as much as possible.</li>
+            <li>Declared at the top of the file, as they are not automatically hoisted like <em>function declarations.</em>.</li>
+            <li>Used a <em>ternary operator, arrow function, do-while, if-else</em> for this solution.</li>
+        </ul>
     </section>
+
     <section class="my-codepen">
+        <h2 id="my-codepen">Codepen</h2>
+        <p>Codepen with the final HTML, CSS, JS versions.</p>
         <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="js,result" data-user="learnCode8" data-slug-hash="MWyMpKq" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="MWyMpKq">
             <span>See the Pen <a href="https://codepen.io/learnCode8/pen/MWyMpKq">
             MWyMpKq</a> by Learn Pen (<a href="https://codepen.io/learnCode8">@learnCode8</a>)
@@ -44,12 +71,24 @@
 
     <!-- My gist embed -->
     <section class="my-github-repo gissa-tal">
-        <script src="https://gist.github.com/codefunlearn/dda8d298a7aedf8e740a9c09bdfb4c3b.js"></script>
-        <p>gist embed github</p>
+        <h2 id="my-github-repo">Github code</h2>
+        <h3>Modular code with functions</h3>
+        <p>The latest version of the Javascript code on <a href="https://gist.github.com/codefunlearn/e88af18f818b4d874a48f3fdca7b306d">Github</a></p>
+        <script src="https://gist.github.com/codefunlearn/e88af18f818b4d874a48f3fdca7b306d.js"></script>
+
+        <h3 id="github-waterfall">Waterfall code</h3>
+        <p>The draft version of the Javascript code on <a href="https://github.com/digitaltechie/gissa-tal/blob/main/gissatal-workshop03/gissatal.js">Github</a></p>
+        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fdigitaltechie%2Fgissa-tal%2Fblob%2Fmain%2Fgissatal-workshop03%2Fgissatal.js&style=github&showBorder=on&showLineNumbers=on&showFileMeta=on"></script>
+    </section>
+
+    <section>
+        <h2 id="github-csharp-lottobollar">C# Lottobollar game, similar logic</h2>
+        <p>I had a similar assignment in Programmering 1 (C#) so putting up <a href="https://gist.github.com/codefunlearn/14bcfe79d530cab51043a157781ffa86">a Gist for it</a>. </p>
+        <script src="https://gist.github.com/codefunlearn/14bcfe79d530cab51043a157781ffa86.js"></script>
     </section>
     </main>
-    
-    <footer>Gissa talet</footer>
+  
+    <footer>Gissa talet by Zainab</footer>
     <script src="gissatal.js"></script>
 </body>
 </html>
