@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+font-size: 62.5%;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+a {
+    color: tomato;
+    text-decoration: none;
+    font-stretch: condensed;
+}
+p, ul, li, section {
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+nav {
+    background-color: thistle;
+    font-size: 1.5rem;
+}
+nav ul {
+    margin: 0 auto;
+    padding: 3%;
+    width: 45%;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    background-color: white;
+}
+nav #to-top-button {
+    min-width: 1rem;
+    max-width: 4rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+body {
+    background-color: thistle;
+}
+.workshop-intro {
+    background-color: rgb(245, 225, 245);
+    border: 1px solid rgb(109, 67, 109);
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: violet;
+    background-color: white;
+}
+h1, h2, h3, h4 {
+    color: rgb(172, 66, 47);
+    padding: 1%;
+    font-size: 3rem;
+}
+
+section ul {
+    padding: 1%;
+    margin: 1%;
+    background: white;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* THIS finally got the thumbnail caption under the thumbnail!! */
+    width: 100%;
+    border: 1px solid thistle;
+}
+
+figure img {
+    width: 50%;
+    opacity: 70%;
+    /* border: 2px solid white; */
+    padding: 1%;
+    margin: 0 auto;
+    display: flex;  /* adding this finally got the image to the center!! */
+}
+/* .thumbnail-caption{
+    display: flex;
+    justify-content: center;  /* working on getting this caption under the image for goodness sake 
+} */
+.thumbnail-image {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    padding: 0.3rem;
+    width: 15rem;
+}
+img:hover{
+    box-shadow: 0 0 0.2rem 0.1rem rgba(0, 140, 186, 0.5);
+}
+
+.my-solution {
+    border: 1px solid rgb(109, 67, 109);
+}
